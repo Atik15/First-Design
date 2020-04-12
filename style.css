@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background: url('photo.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.atik{
+    height: 80px;
+    width: 100%;
+    background: rgba (0,0,0,0.4);
+}
+.atik ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+.atik ul li{
+    list-style:none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+    
+}
+.atik ul li a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+    padding: 6px 13px;;
+    font-family:'Roboto',sans-serif;
+}
+.atik ul li a.active,
+.atik ul li a:hover{
+    background: red;
+    border-radius: 50px;
+    
+}
+.box .center{
+    position: absolute;
+    top:50%;
+    left:35%;
+    transform: translate(50%)
+    font-family:sans-serif;
+    user-select: none;
+}
+.center h1{
+    color:black;
+    font-size: 60px;
+    font-weight: bold;
+    width: 700px;
+    text-align: left;
+}
+.center h2{
+    color:black;
+    font-size: 60px;
+    font-weight: bold;
+    width: 650px;
+    text-align: left;
+    margin-top: 10px;
+}
+.center .buttons{
+    margin: 35px 120px;
+    
+}
+.buttons button{
+     height: 50px;
+     width: 150px;
+     font-size: 18px;
+     font-weight: blod;
+     color:#ffb3b3;
+     background: red;
+     border: 1px solid #cc0000;
+     outline: none;
+     cursor: pointer;
+    border-radius: 25px;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: #cc0000;
+}
